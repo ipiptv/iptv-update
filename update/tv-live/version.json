@@ -1,0 +1,7 @@
+{
+  "versionCode": 489,
+  "versionName": "4.9.2",
+  "apkUrl": "https://github.com/ipiptv/iptv-update/raw/main/update/tv-live/TV-4.9.2.apk",
+  "note": "1.长按确定键呼出底部信息条（面板打开略慢0.35秒）；2.点正在播放的频道只收面板，不重播；3.二级每行显示源x/y，源数为真实值；4.每个频道记住能播的源，刷新源后重置；5.关于→检查更新改为联网检查新版本，可直接下载安装",
+  "isForce": false
+}
