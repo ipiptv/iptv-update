@@ -1,7 +1,7 @@
 {
-  "versionCode": 493,
-  "versionName": "4.9.6",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.6-%E5%88%87%E5%8F%B0%E4%B8%8D%E8%BD%AC%E5%9C%88.apk",
-  "note": "新版本 v4.9.6（493），修复若干问题",
+  "versionCode": 494,
+  "versionName": "4.9.7",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.7-%E4%B8%A4%E6%AC%A1%E8%BF%94%E5%9B%9E%E7%A1%AE%E8%AE%A4.apk",
+  "note": "新版本 v4.9.7（494），修复若干问题",
   "isForce": false
 }
