@@ -1,7 +1,7 @@
 {
-  "versionCode": 502,
-  "versionName": "4.9.14",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.14-%E8%AE%BE%E7%BD%AE%E8%8F%9C%E5%8D%95%E4%BF%AE%E5%A4%8D.apk",
-  "note": "修复设置里点「订阅源管理」「检查更新」都跳进「分组管理」的问题",
-  "isForce": false
+  "versionCode": 503,
+  "versionName": "4.9.15",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.15-%E5%A4%9A%E6%BA%90%E5%90%8C%E5%BC%80.apk",
+  "note": "新增：订阅源可同时启用多个，分组合并到一级菜单；新增强制更新（弹窗不可取消）",
+  "isForce": true
 }
