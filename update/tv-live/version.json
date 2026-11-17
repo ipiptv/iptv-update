@@ -1,7 +1,7 @@
 {
-  "versionCode": 500,
-  "versionName": "4.9.12",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.12-UA%E5%85%BC%E5%AE%B9%E4%BF%AE%E5%A4%8D.apk",
-  "note": "修复 4.9.11 播放黑屏：只有填了 UA 的源才给播放器带请求头，没填的源与旧版一致；带 UA 失败会自动去掉头重试",
+  "versionCode": 501,
+  "versionName": "4.9.13",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.13-%E6%96%B0%E6%BA%90ExoPlayer.apk",
+  "note": "填了 UA 的源改用 ExoPlayer 播放，m3u8 与分片请求都带同一个 UA；没填 UA 的源行为不变",
   "isForce": false
 }
