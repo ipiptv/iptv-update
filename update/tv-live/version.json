@@ -1,7 +1,7 @@
 {
-  "versionCode": 498,
-  "versionName": "4.9.10",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.10-%E8%AE%BE%E7%BD%AE%E5%8D%95%E8%A1%8C%E4%B8%8E%E6%8B%89%E6%BA%90%E4%BF%AE%E5%A4%8D.apk",
-  "note": "新版本 v4.9.10（498），修复若干问题",
+  "versionCode": 499,
+  "versionName": "4.9.11",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.11-%E6%BA%90%E7%8B%AC%E7%AB%8BUA.apk",
+  "note": "新增订阅源自定义 UA：手机配源可填，留空用默认；扫码页只留二维码改高透背景；手机配源页重排为两个页签",
   "isForce": false
 }
