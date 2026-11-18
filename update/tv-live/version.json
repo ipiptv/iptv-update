@@ -1,7 +1,7 @@
 {
-  "versionCode": 506,
-  "versionName": "4.9.18",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.18-%E7%BB%9F%E4%B8%80%E6%92%AD%E6%94%BE%E5%99%A8.apk",
-  "note": "统一 ExoPlayer 播放层（修复混源换不了台）、UA 绑线路、节目表选台不再跳回第一个频道、新增订阅源 UA 设置与频道列表自动更新",
+  "versionCode": 507,
+  "versionName": "4.9.19",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.19-%E5%90%AF%E5%8A%A8%E6%8F%90%E9%80%9F.apk",
+  "note": "启动提速：起播提前、缓冲档位可调（极速/均衡/稳定）、连接预热；修复项延续 4.9.18",
   "isForce": true
 }
