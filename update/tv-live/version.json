@@ -1,7 +1,7 @@
 {
-  "versionCode": 504,
-  "versionName": "4.9.16",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.16-%E7%B2%98%E8%B4%B4%E4%B8%8E%E6%B5%81%E7%95%85%E4%BF%AE%E5%A4%8D.apk",
-  "note": "配源网页支持粘贴地址；多源切换卡顿优化（本次强制更新）",
+  "versionCode": 505,
+  "versionName": "4.9.17",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.17-%E9%80%89%E5%8F%B0%E4%BF%AE%E5%A4%8D.apk",
+  "note": "修复：换台后自动跳回第一个频道、选不了其它台（合并列表不再重置选中；播放失败不再跳第一条）",
   "isForce": true
 }

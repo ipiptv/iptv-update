@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000">
+
+    <!-- 全屏播放画面 -->
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 加载圈 -->
+    <tv.live.LoadingSpinner
+        android:id="@+id/loading"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- 右上角时间 -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="8dp"
+        android:background="#33000000"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp" />
+
+    <!-- 双栏菜单：左=一级分组，右=二级频道 -->
+    <LinearLayout
+        android:id="@+id/panelContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:elevation="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/panel_bg"
+        android:visibility="gone">
+
+        <!-- 一级：分组列表（背景更深） -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/groupList"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:overScrollMode="never" />
+
+        <!-- 二级：频道列表（背景稍浅） -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/channelList"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:overScrollMode="never" />
+
+        <!-- 二级与三级之间的竖排提示：▶ 节目单 -->
+        <TextView
+            android:id="@+id/hintStrip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingHorizontal="3dp"
+            android:text="▶
+节
+目
+单"
+            android:textColor="#4A6E8C"
+            android:textSize="10sp"
+            android:lineSpacingExtra="6dp" />
+
+        <!-- 三级：节目单（EPG），默认隐藏，右键才展开 -->
+        <FrameLayout
+            android:id="@+id/epgContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:visibility="gone">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/epgList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:overScrollMode="never" />
+
+            <TextView
+                android:id="@+id/epgHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFD5D5D5"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:text="" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+    <!-- 右侧设置面板：订阅源 / 分组，面板内层级切换 -->
+    <LinearLayout
+        android:id="@+id/settingsPanel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/settings_bg"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingRight="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/settingsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="20dp"
+            android:text="设置"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/settingsList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingVertical="6dp"
+            android:overScrollMode="never" />
+
+        <TextView
+            android:id="@+id/settingsHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="16dp"
+            android:textColor="#FF777777"
+            android:textSize="12sp"
+            android:lineSpacingExtra="3dp"
+            android:text="" />
+    </LinearLayout>
+
+    <!-- 扫码换源覆盖层 -->
+    <LinearLayout
+        android:id="@+id/configOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#F2000000"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫码换源"
+            android:textColor="#FFFFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="手机连同一个 WiFi，扫码打开页面填写订阅源地址"
+            android:textColor="#FFAAAAAA"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/qrImage"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="18dp"
+            android:background="#FFFFFFFF"
+            android:padding="8dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/configUrlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#33000000"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:textColor="#FF44DDFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/configCurrentText"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="#FF888888"
+            android:textSize="13sp"
+            android:singleLine="false"
+            android:maxLines="2"
+            android:ellipsize="middle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="按返回键关闭"
+            android:textColor="#FF666666"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 数字键频道号输入提示 -->
+    <TextView
+        android:id="@+id/numberInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#CC000000"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="14dp"
+        android:textColor="#FFFFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <!-- 底部信息条：编号+频道名 | 竖杠 | 正在播 / 下一个 -->
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="28dp"
+        android:paddingVertical="10dp"
+        android:background="#B3000000">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="150dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/bottomNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF4FA7FF"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/bottomName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp"
+                android:singleLine="true"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="56dp"
+            android:layout_marginHorizontal="22dp"
+            android:background="#554A7BB8" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:text="正在播"
+                    android:textColor="#FF9FC0E0"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/bottomNowProgram"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="22sp"
+                    android:singleLine="true"
+                    android:ellipsize="end" />
+
+                <TextView
+                    android:id="@+id/bottomNowRes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:textColor="#FF9FC0E0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:text="下一个"
+                    android:textColor="#FF9FC0E0"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/bottomNextProgram"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFD0D8E0"
+                    android:textSize="17sp"
+                    android:singleLine="true"
+                    android:ellipsize="end" />
+
+                <TextView
+                    android:id="@+id/bottomNextRes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:textColor="#FF9FC0E0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

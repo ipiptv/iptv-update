@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="4dp">
+
+    <!-- 第一行：序号 + 图标 + 频道名 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/channelNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF66AACC"
+            android:textSize="13sp"
+            android:minWidth="26dp"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/channelIcon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_channel"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/channelName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+    <!-- 第二行：正在播放 + 当前节目名（超出则跑马灯滚动） -->
+    <LinearLayout
+        android:id="@+id/programRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="2dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/programLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在播放"
+            android:background="#260A5C99"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="1dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#FF7FE3FF"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/programName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFB8C6D4"
+            android:textSize="13sp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="-1"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </LinearLayout>
+
+    <!-- 第三行：线路/源信息，例如「源 2/5」，只给正在播放的频道显示 -->
+    <TextView
+        android:id="@+id/sourceInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="#FF8FA3B6"
+        android:textSize="11sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:visibility="gone" />
+</LinearLayout>
