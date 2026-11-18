@@ -1,7 +1,7 @@
 {
-  "versionCode": 509,
-  "versionName": "4.9.21",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.21-%E6%97%A0%E7%94%BB%E9%9D%A2%E4%BF%AE%E5%A4%8D.apk",
-  "note": "修复 4.9.20 无画面：节目单回到轻量单线路、续播逻辑还原，保留启动提速",
+  "versionCode": 510,
+  "versionName": "4.9.22",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.22-%E5%9B%9E%E5%88%B04.9.10%E7%A8%B3%E5%AE%9A%E7%89%88.apk",
+  "note": "回到 4.9.10 的稳定播放行为（未加 UA/统一播放器之前）；版本号仅用于覆盖安装",
   "isForce": true
 }

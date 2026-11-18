@@ -11,8 +11,8 @@ android {
         applicationId = "tv.live"
         minSdk = 21
         targetSdk = 28
-        versionCode = 498
-        versionName = "4.9.10"
+        versionCode = 510
+        versionName = "4.9.22"
         // 只打包32位ARM（老电视）+ 64位（新盒子），砍掉x86减小体积
         ndk {
             abiFilters += listOf("armeabi-v7a", "arm64-v8a")
