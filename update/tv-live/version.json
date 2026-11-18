@@ -1,7 +1,7 @@
 {
-  "versionCode": 508,
-  "versionName": "4.9.20",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.20-%E8%8A%82%E7%9B%AE%E5%8D%95%E4%B8%8E%E7%BB%AD%E6%92%AD.apk",
-  "note": "节目单多线路+本地缓存兜底（修复二级菜单无当前节目）；返回桌面回来按频道名静默续播；全部静默不打扰",
+  "versionCode": 509,
+  "versionName": "4.9.21",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/ipiptv/iptv-update/main/update/tv-live/TV-v4.9.21-%E6%97%A0%E7%94%BB%E9%9D%A2%E4%BF%AE%E5%A4%8D.apk",
+  "note": "修复 4.9.20 无画面：节目单回到轻量单线路、续播逻辑还原，保留启动提速",
   "isForce": true
 }

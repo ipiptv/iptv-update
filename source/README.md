@@ -15,8 +15,8 @@
 | --- | --- |
 | `source/pc-desktop/TV直播-电脑版-源码.zip` | 电脑版完整工程源码 |
 | `source/pc-desktop/TV直播-电脑版-mac.zip` | 电脑版编译好的成品 App |
-| `source/tv/TV-live-android-source-v4.9.20.zip` | 电视版工程源码（v4.9.20 / versionCode 508） |
-| `source/tv/TV-v4.9.20-android-tv.apk` | 电视版安装包（v4.9.20，与 `update/tv-live/` 里同版，命名简化便于直接下载安装） |
+| `source/tv/TV-live-android-source-v4.9.21.zip` | 电视版工程源码（v4.9.21 / versionCode 509） |
+| `source/tv/TV-v4.9.21-android-tv.apk` | 电视版安装包（v4.9.21，与 `update/tv-live/` 里同版，命名简化便于直接下载安装） |
 | `update/tv-live/` | 电视版历史发布 APK（带改动说明的原名文件） |
 | `update/version.json` | 电视版 App 内「检测更新」读取的版本信息 |
 
