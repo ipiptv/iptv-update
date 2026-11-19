@@ -1,7 +1,7 @@
 {
-  "versionCode": 523,
-  "versionName": "4.9.35",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.35-%E7%89%88%E6%9C%AC%E5%8F%B7%E9%80%92%E5%A2%9E.apk",
-  "note": "1) 检查更新下载时底部显示进度条（百分比）；2) 设置首页新增「订阅管理」，分组管理、订阅源管理收进去；3) 订阅源管理里每条源按左键可单独刷新。非强制更新。",
+  "versionCode": 524,
+  "versionName": "4.9.36",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.36-%E8%8A%82%E7%9B%AE%E4%B8%BB%E6%AC%A1%E5%88%86%E7%BA%A7.apk",
+  "note": "1) 频道列表「正在播放 · 当前节目」字号加大、颜色提亮，与下方「源 x/y · 下个 HH:mm 节目名」形成主次；2) 订阅源管理副标题精简，不再被截断（行尾固定 ⟳ 刷新标记）；3) 下载进度条、订阅管理、单源刷新沿用上一版。非强制更新。",
   "isForce": false
 }
