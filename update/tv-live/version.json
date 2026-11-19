@@ -1,7 +1,7 @@
 {
-  "versionCode": 528,
-  "versionName": "4.9.40",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.40-%E8%AE%A2%E9%98%85%E6%BA%90%E5%88%97%E8%A1%A8%E6%B8%85%E6%99%B0%E7%89%88.apk",
-  "note": "订阅源管理列表重做：行高改为内容自适应，副标题不再被裁切；每行左侧加启用状态竖条（绿=启用/灰=停用），当前源名字前加 ★；副标题只显示「当前源 · UA · 合并」这类短标签，刷新标记 ⟳ 固定在最右侧；底部提示精简为一行。其余与 4.9.34 一致。非强制更新。",
+  "versionCode": 529,
+  "versionName": "4.9.41",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.41-%E7%9B%B4%E8%BF%9E%E4%BC%98%E5%85%88%E8%87%AA%E9%80%82%E5%BA%94.apk",
+  "note": "播放改成智能自适应（方案A基础版）：所有线路先直连（源里有UA就带UA头），直连没画面或报错才自动转本地代理同址重试一次，再不行才换线路/换源；探测结果按域名记在本机，同域名以后直接走对的那条路，不再重复等待。设置界面无新增开关，换电视也不用配。非强制更新。",
   "isForce": false
 }
