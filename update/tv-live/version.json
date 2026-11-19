@@ -1,7 +1,7 @@
 {
-  "versionCode": 523,
-  "versionName": "4.9.35",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.35-%E7%89%88%E6%9C%AC%E5%8F%B7%E9%80%92%E5%A2%9E.apk",
-  "note": "回退到 4.9.35（上一个版本）。下载进度条、订阅管理、单源刷新保留；频道列表主次分级与订阅源副标题改动暂缓。非强制更新。",
+  "versionCode": 525,
+  "versionName": "4.9.37",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.37-%E8%AE%A2%E9%98%85%E6%BA%90%E6%96%87%E5%AD%97%E4%BF%AE%E5%A4%8D.apk",
+  "note": "在 4.9.35 基础上只改一项：订阅源管理里每行副标题改短（当前源 / UA / 合并，行尾固定 ⟳），不再被切掉。频道列表样式与 4.9.35 相同，下载进度条保留。非强制更新。",
   "isForce": false
 }
