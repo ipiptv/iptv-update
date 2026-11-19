@@ -1,7 +1,7 @@
 {
-  "versionCode": 522,
-  "versionName": "4.9.34",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.34-%E4%B8%8B%E8%BD%BD%E8%BF%9B%E5%BA%A6.apk",
-  "note": "1) 设置首页新增「订阅管理」一级菜单，分组管理、订阅源管理收进去；2) 订阅源管理里每条源可按左键单独刷新；3) 检查更新下载时底部显示下载进度条（百分比）。非强制更新。",
+  "versionCode": 523,
+  "versionName": "4.9.35",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.35-%E7%89%88%E6%9C%AC%E5%8F%B7%E9%80%92%E5%A2%9E.apk",
+  "note": "1) 检查更新下载时底部显示进度条（百分比）；2) 设置首页新增「订阅管理」，分组管理、订阅源管理收进去；3) 订阅源管理里每条源按左键可单独刷新。非强制更新。",
   "isForce": false
 }
