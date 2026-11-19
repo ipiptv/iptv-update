@@ -1,7 +1,7 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-mini/%E7%9C%8B%E7%94%B5%E8%A7%86-mini-v1.1.apk",
-  "note": "v1.1：①一级菜单顶部新增「我的收藏」；②频道列表长按 OK 键 1 秒收藏/取消，已收藏的台名字后面标 ★；③收藏按「频道名+线路」存，源刷新后自动重新对上，没有的自动剔除；④App 名称统一为「看电视」；⑤桌面/圆形/横屏三张图标全部换成新风格。",
+  "versionCode": 3,
+  "versionName": "1.2",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-mini/%E7%9C%8B%E7%94%B5%E8%A7%86-mini-v1.2.apk",
+  "note": "v1.2 节目单提速：①节目单源换成 jsDelivr（实测 2 秒级），原来是 Gitee 那个已被拦截(451)+两条慢速源；②拉取时机从进软件 60 秒提前到 5 秒；③连接超时 12s→5s、读取 25s→8s，失败立刻换下一条。",
   "isForce": false
 }
