@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
-  "apkUrl": "https://testingcf.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-mini/%E7%9C%8B%E7%94%B5%E8%A7%86-mini-%E8%BD%BB%E9%87%8F%E7%89%88-v1.4.apk",
-  "note": "v1.4：仅轻量版。版本号抬到 code 5，解决\"点更新装不上\"（通道之前与已装版本同号，安装器判定无更新）。设置页显示「轻量版 v1.4」。",
-  "isForce": true
+  "versionCode": 6,
+  "versionName": "1.5",
+  "apkUrl": "https://testingcf.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-mini/%E7%9C%8B%E7%94%B5%E8%A7%86-mini-%E8%BD%BB%E9%87%8F%E7%89%88-v1.5.apk",
+  "note": "v1.5：设置页新增「手动刷新」一行，点一下重新拉取频道和节目单（不用退出重进）。只动轻量版。",
+  "isForce": false
 }
