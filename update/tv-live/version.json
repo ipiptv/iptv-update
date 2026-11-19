@@ -1,7 +1,7 @@
 {
-  "versionCode": 531,
-  "versionName": "4.9.43",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.43-%E5%86%85%E7%BD%AE%E5%86%85%E6%A0%B8.apk",
-  "note": "换内置播放内核（Media3/ExoPlayer）：https、302、每层请求带 UA 都由 App 自己处理，不再依赖电视厂商播放器；播不出来会自动退回系统播放器（原代理那套保留当保险）。设置里新增「播放内核」：自动（先内置失败回系统）/ 内置 / 系统播放器，出问题一键切回。包体从 745KB 增到约 1.5MB。非强制更新。",
+  "versionCode": 532,
+  "versionName": "4.9.44",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.44-%E8%AE%BE%E7%BD%AE%E4%BF%AE%E5%A4%8D.apk",
+  "note": "修两个问题：1) 设置项点一次被触发两遍（遥控 OK 与列表点击重复），导致点播放内核/检查更新/关于都会跳到订阅源管理——已加 150ms 去重；2) 频道播不出来时原来会自动跳到下一个频道，一路跳到底看着像选台失灵——改为原地提示「这个频道暂时连不上」，不再乱跳频道。非强制更新。",
   "isForce": false
 }
