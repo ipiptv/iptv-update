@@ -1,7 +1,7 @@
 {
-  "versionCode": 532,
-  "versionName": "4.9.44",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.44-%E8%AE%BE%E7%BD%AE%E4%BF%AE%E5%A4%8D.apk",
-  "note": "修两个问题：1) 设置项点一次被触发两遍（遥控 OK 与列表点击重复），导致点播放内核/检查更新/关于都会跳到订阅源管理——已加 150ms 去重；2) 频道播不出来时原来会自动跳到下一个频道，一路跳到底看着像选台失灵——改为原地提示「这个频道暂时连不上」，不再乱跳频道。非强制更新。",
+  "versionCode": 533,
+  "versionName": "4.9.45",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.45-%E6%8D%A2%E5%8F%B0%E9%94%81%E6%AD%BB%E4%BF%AE%E5%A4%8D.apk",
+  "note": "修「正在播的台也换不了、按哪个都跳回第一个」：原来一开始播就记账成正在播（不管成没成功），失败又兜底跳第 0 个频道，把当前频道状态写坏，之后所有台都被判定为已在播。现在改为出画面才记账、删掉两处跳第 0 个的兜底、判定已在播必须真有画面。非强制更新。",
   "isForce": false
 }
