@@ -1,7 +1,7 @@
 {
-  "versionCode": 4,
-  "versionName": "1.3",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-mini/%E7%9C%8B%E7%94%B5%E8%A7%86-mini-%E8%BD%BB%E9%87%8F%E7%89%88-v1.3.apk",
-  "note": "v1.3：设置页版本行按变体标注——轻量版显示「轻量版 v1.3」、内核版显示「内核版 v1.3」；同时修正更新通道指向轻量版安装包（此前通道指的内核版，轻量版用户更新会装错包）。",
+  "versionCode": 5,
+  "versionName": "1.4",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-mini/%E7%9C%8B%E7%94%B5%E8%A7%86-mini-%E8%BD%BB%E9%87%8F%E7%89%88-v1.4.apk",
+  "note": "v1.4：仅轻量版。版本号抬到 code 5，解决\"点更新装不上\"（通道之前与已装版本同号，安装器判定无更新）。设置页显示「轻量版 v1.4」。",
   "isForce": true
 }
