@@ -1,0 +1,7 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-mini/%E7%9C%8B%E7%94%B5%E8%A7%86-mini-v1.0.apk",
+  "note": "「看电视」精简版首发：开机即看，左侧频道面板与底部条与原版一致；设置只留时间显示/检测更新/版本号三项；内置内核自动兜底；包名 tv.live.mini，可与原版共存。",
+  "isForce": false
+}
