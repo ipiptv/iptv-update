@@ -1,7 +1,7 @@
 {
-  "versionCode": 527,
-  "versionName": "4.9.39",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.39-%E8%AE%A2%E9%98%85%E6%BA%90%E6%96%87%E5%AD%97%E4%BF%AE%E5%A4%8D.apk",
-  "note": "以 4.9.34 为基准，只改一处：订阅源管理里每行副标题缩短为「当前源 / UA / 合并」加行尾 ⟳，单行显示不再被切掉。源信息恢复为只显示「源 x/y」，不带下个节目；其余与 4.9.34 完全一致。非强制更新。",
+  "versionCode": 528,
+  "versionName": "4.9.40",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.40-%E8%AE%A2%E9%98%85%E6%BA%90%E5%88%97%E8%A1%A8%E6%B8%85%E6%99%B0%E7%89%88.apk",
+  "note": "订阅源管理列表重做：行高改为内容自适应，副标题不再被裁切；每行左侧加启用状态竖条（绿=启用/灰=停用），当前源名字前加 ★；副标题只显示「当前源 · UA · 合并」这类短标签，刷新标记 ⟳ 固定在最右侧；底部提示精简为一行。其余与 4.9.34 一致。非强制更新。",
   "isForce": false
 }
