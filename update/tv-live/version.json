@@ -1,7 +1,7 @@
 {
-  "versionCode": 529,
-  "versionName": "4.9.41",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.41-%E7%9B%B4%E8%BF%9E%E4%BC%98%E5%85%88%E8%87%AA%E9%80%82%E5%BA%94.apk",
-  "note": "播放改成智能自适应（方案A基础版）：所有线路先直连（源里有UA就带UA头），直连没画面或报错才自动转本地代理同址重试一次，再不行才换线路/换源；探测结果按域名记在本机，同域名以后直接走对的那条路，不再重复等待。设置界面无新增开关，换电视也不用配。非强制更新。",
+  "versionCode": 530,
+  "versionName": "4.9.42",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.42-%E8%AE%BE%E7%BD%AE%E6%B5%AE%E7%AA%97%E7%89%88.apk",
+  "note": "右侧设置面板改成和左侧面板同一套浮窗样式：同一渐变半透明底、18dp 圆角、同款选中高亮蓝条，选中项文字提亮；面板宽度从 300dp 放宽到 360dp，内边距对齐左侧；开合加了淡入+轻微位移动画。功能未改。非强制更新。",
   "isForce": false
 }
