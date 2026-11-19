@@ -1,7 +1,7 @@
 {
-  "versionCode": 530,
-  "versionName": "4.9.42",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.42-%E8%AE%BE%E7%BD%AE%E6%B5%AE%E7%AA%97%E7%89%88.apk",
-  "note": "右侧设置面板改成和左侧面板同一套浮窗样式：同一渐变半透明底、18dp 圆角、同款选中高亮蓝条，选中项文字提亮；面板宽度从 300dp 放宽到 360dp，内边距对齐左侧；开合加了淡入+轻微位移动画。功能未改。非强制更新。",
+  "versionCode": 531,
+  "versionName": "4.9.43",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.43-%E5%86%85%E7%BD%AE%E5%86%85%E6%A0%B8.apk",
+  "note": "换内置播放内核（Media3/ExoPlayer）：https、302、每层请求带 UA 都由 App 自己处理，不再依赖电视厂商播放器；播不出来会自动退回系统播放器（原代理那套保留当保险）。设置里新增「播放内核」：自动（先内置失败回系统）/ 内置 / 系统播放器，出问题一键切回。包体从 745KB 增到约 1.5MB。非强制更新。",
   "isForce": false
 }
