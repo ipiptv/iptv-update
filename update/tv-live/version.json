@@ -1,7 +1,7 @@
 {
-  "versionCode": 533,
-  "versionName": "4.9.45",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.45-%E6%8D%A2%E5%8F%B0%E9%94%81%E6%AD%BB%E4%BF%AE%E5%A4%8D.apk",
-  "note": "修「正在播的台也换不了、按哪个都跳回第一个」：原来一开始播就记账成正在播（不管成没成功），失败又兜底跳第 0 个频道，把当前频道状态写坏，之后所有台都被判定为已在播。现在改为出画面才记账、删掉两处跳第 0 个的兜底、判定已在播必须真有画面。非强制更新。",
+  "versionCode": 534,
+  "versionName": "4.9.46",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.46-%E5%86%85%E6%A0%B8%E9%80%89%E9%A1%B9.apk",
+  "note": "以 4.9.40 的设置为基准：设置列表按实际项数一行一项铺满、不再滚动，按 OK 执行的就是当前高亮那一行（修掉 4.9.42 浮窗化之后「按关于/检查更新/播放内核却进订阅源管理」的错位）。保留内置 ExoPlayer 内核，设置里「播放内核」三档可选：自动（默认，先内置、播不出来回系统）/ 内置内核 / 系统播放器。保留换台修复。非强制更新。",
   "isForce": false
 }
