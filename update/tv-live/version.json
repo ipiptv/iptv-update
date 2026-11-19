@@ -1,7 +1,7 @@
 {
-  "versionCode": 515,
-  "versionName": "4.9.27",
-  "apkUrl": "https://gcore.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.27-%E8%8A%82%E7%9B%AE%E5%8D%95%E4%BF%AE%E5%A4%8D.apk",
-  "note": "修复二级频道列表与底部信息条不显示“正在播/下一个”：节目表换到国内实时源并加时效校验，数据过期自动切备用线路。非强制更新，可在设置里手动检查。",
+  "versionCode": 522,
+  "versionName": "4.9.34",
+  "apkUrl": "https://gcore.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.34-%E4%B8%8B%E8%BD%BD%E8%BF%9B%E5%BA%A6.apk",
+  "note": "1) 设置首页新增「订阅管理」一级菜单，分组管理、订阅源管理收进去；2) 订阅源管理里每条源可按左键单独刷新；3) 检查更新下载时底部显示下载进度条（百分比）。非强制更新。",
   "isForce": false
 }
