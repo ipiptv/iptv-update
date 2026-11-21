@@ -1,7 +1,7 @@
 {
-  "versionCode": 551,
-  "versionName": "4.9.51",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.51-%E5%8F%8C%E5%86%85%E7%BD%AE%E6%BA%90.apk",
-  "note": "双内置源版：4.9.40 终极版底座，内置第二个源 bbxx365_ott（gitee），单独使用 qqlive UA；两个源默认同时勾选、同时加载合并，设置→订阅管理里可分别启停。修复了上一版启动崩溃与内置源未生效的问题。",
+  "versionCode": 552,
+  "versionName": "4.9.52",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.52-%E5%9C%93%E5%BD%A2%E5%9B%BE%E6%A0%87.apk",
+  "note": "图标改为圆形蓝色复古电视机图标（看电视风格）；两个内置源（默认源 + 内置源2 OTT）均设为不可删除，删除时提示“默认源不能删除”。其余功能与 4.9.51 一致：双源默认同开、OTT 源使用 qqlive UA。",
   "isForce": false
 }
