@@ -1,7 +1,7 @@
 {
-  "versionCode": 547,
-  "versionName": "4.9.47",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.47-%E5%8F%8C%E5%86%85%E7%BD%AE%E6%BA%90.apk",
-  "note": "双内置源版：在 4.9.40 终极版基础上，内置第二个源 bbxx365_ott（https://gitee.com/IptvIptv/Iptv/raw/master/bbxx365_ott.m3u），该源单独使用 qqlive UA；两个源默认同时勾选、同时加载合并，设置里可分别启停。其余界面与 4.9.40 终极版一致。",
+  "versionCode": 551,
+  "versionName": "4.9.51",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.51-%E5%8F%8C%E5%86%85%E7%BD%AE%E6%BA%90.apk",
+  "note": "双内置源版：4.9.40 终极版底座，内置第二个源 bbxx365_ott（gitee），单独使用 qqlive UA；两个源默认同时勾选、同时加载合并，设置→订阅管理里可分别启停。修复了上一版启动崩溃与内置源未生效的问题。",
   "isForce": false
 }
