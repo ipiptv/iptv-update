@@ -1,7 +1,7 @@
 {
-  "versionCode": 535,
-  "versionName": "4.9.40",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.40-%E7%BB%88%E6%9E%81%E7%89%88.apk",
-  "note": "终极版：就是 4.9.40「订阅源列表清晰版」的原始内容，一行代码没改，只把包内版本号提到 535 以便覆盖安装。设置列表按项数铺满、不滚动，按 OK 只进对应页面；订阅源管理行高自适应、左侧启停竖条、★当前源、⟳刷新。不含内置内核、不含 4.9.42 之后的任何改动。非强制更新。",
+  "versionCode": 547,
+  "versionName": "4.9.47",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.47-%E5%8F%8C%E5%86%85%E7%BD%AE%E6%BA%90.apk",
+  "note": "双内置源版：在 4.9.40 终极版基础上，内置第二个源 bbxx365_ott（https://gitee.com/IptvIptv/Iptv/raw/master/bbxx365_ott.m3u），该源单独使用 qqlive UA；两个源默认同时勾选、同时加载合并，设置里可分别启停。其余界面与 4.9.40 终极版一致。",
   "isForce": false
 }
