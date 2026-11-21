@@ -1,7 +1,7 @@
 {
   "versionCode": 552,
   "versionName": "4.9.52",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.52-%E5%9C%93%E5%BD%A2%E5%9B%BE%E6%A0%87.apk",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.52-circle-icon.apk",
   "note": "图标改为圆形蓝色复古电视机图标（看电视风格）；两个内置源（默认源 + 内置源2 OTT）均设为不可删除，删除时提示“默认源不能删除”。其余功能与 4.9.51 一致：双源默认同开、OTT 源使用 qqlive UA。",
   "isForce": false
 }
