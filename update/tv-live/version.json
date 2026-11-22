@@ -1,7 +1,7 @@
 {
-  "versionCode": 554,
-  "versionName": "4.9.54",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.54-banner.apk",
-  "note": "回退到 4.9.54 稳定版，强制更新。",
+  "versionCode": 553,
+  "versionName": "4.9.53",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.53-squircle.apk",
+  "note": "回退到 4.9.53 稳定版，强制更新。",
   "isForce": true
 }
