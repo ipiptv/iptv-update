@@ -1,7 +1,7 @@
 {
-  "versionCode": 555,
-  "versionName": "4.9.55",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.55-3source.apk",
-  "note": "新增第三个内置源「一起看」（yiqikan.m3u，虎牙观影等）、默认开启并使用默认 UA；三个内置源（默认源 / 内置源2 OTT / 内置源3 一起看）均为不可删除。图标保持 4.9.54 的蓝色圆角方形 + 横版卡。",
+  "versionCode": 556,
+  "versionName": "4.9.56",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.56-httpfix.apk",
+  "note": "针对「一起看」源里虎牙/斗鱼频道黑屏：这类线路是 http 地址且要先 302 跳到 CDN，盒子上系统播放器跟不过去。此版在播放前先把 http 线路的 302 提前解析成最终地址再交给播放器，https 线路（YY）保持原样不额外等。另把线路探测超时从 450ms 放宽到 2000ms。",
   "isForce": false
 }
