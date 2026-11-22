@@ -1,7 +1,7 @@
 {
-  "versionCode": 575,
-  "versionName": "4.9.75",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.75-rollback452.apk",
-  "note": "回退版：内容为 4.9.52（原播放内核），版本号提升为 4.9.75 以便强制更新覆盖。",
+  "versionCode": 576,
+  "versionName": "4.9.40",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.40-ultimate-576.apk",
+  "note": "回退到 4.9.40 终极版（订阅源列表清晰版原样，不含内置内核），版本号提到 576 以便覆盖安装。强制更新。",
   "isForce": true
 }
