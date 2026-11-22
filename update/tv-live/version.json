@@ -1,7 +1,7 @@
 {
-  "versionCode": 554,
-  "versionName": "4.9.54",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.54-squircle-banner.apk",
-  "note": "图标全套换新：桌面/launcher 用的 banner（android:banner）改成蓝色复古电视机横版卡片，应用图标 ic_launcher / ic_launcher_round 改成同款蓝色圆角方形（四角透明，mdpi~xxxhdpi 五档）。两个内置源（默认源 + 内置源2 OTT）均不可删除。其余功能同 4.9.52。",
+  "versionCode": 555,
+  "versionName": "4.9.55",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.55-3source.apk",
+  "note": "新增第三个内置源「一起看」（yiqikan.m3u，虎牙观影等）、默认开启并使用默认 UA；三个内置源（默认源 / 内置源2 OTT / 内置源3 一起看）均为不可删除。图标保持 4.9.54 的蓝色圆角方形 + 横版卡。",
   "isForce": false
 }
