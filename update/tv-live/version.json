@@ -1,7 +1,7 @@
 {
-  "versionCode": 560,
-  "versionName": "4.9.60",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.60-exo.apk",
-  "note": "内核改造版：内置 ExoPlayer 播放内核，自带 HLS / FLV 直播解析，不再依赖盒子的 AmSuperPlayer。同时绕开了 App 自带的本地转发代理——虎牙、斗鱼黑屏就卡在这一层，直连后秒开；另外加了 12 秒首帧超时，卡住会自动交给下一线路/下一台。三个内置源、图标、不可删除保护均保持原样。",
+  "versionCode": 566,
+  "versionName": "4.9.66",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.66-exo.apk",
+  "note": "内核改造版 + 选台修复：内置 ExoPlayer 内核（HLS / FLV 直连，虎牙斗鱼可播，MCP 走代理），首帧渲染后才回调播放成功。本次修复频道面板自动消失过早的问题——面板停留延长到 20 秒，且任何按键都会重新计时，方向键可以正常在分组/频道列表里上下移动，按确定播放选中的那一台。三个内置源、图标、不可删除保护不变。",
   "isForce": false
 }
