@@ -1,7 +1,7 @@
 {
-  "versionCode": 556,
-  "versionName": "4.9.56",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.56-httpfix.apk",
-  "note": "针对「一起看」源里虎牙/斗鱼频道黑屏：这类线路是 http 地址且要先 302 跳到 CDN，盒子上系统播放器跟不过去。此版在播放前先把 http 线路的 302 提前解析成最终地址再交给播放器，https 线路（YY）保持原样不额外等。另把线路探测超时从 450ms 放宽到 2000ms。",
+  "versionCode": 558,
+  "versionName": "4.9.58",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.58-exo.apk",
+  "note": "内核改造版：App 内置 ExoPlayer 播放内核（自带 HLS 与 FLV 解封装/解码），不再依赖盒子的 AmSuperPlayer。虎牙、斗鱼这类 FLV 直播源现在可以直接播放；m3u8 频道自动走 HLS 解析。三个内置源与图标保持原样。",
   "isForce": false
 }
