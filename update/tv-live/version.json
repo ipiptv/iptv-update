@@ -1,7 +1,7 @@
 {
-  "versionCode": 573,
-  "versionName": "4.9.73",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.73-exo.apk",
-  "note": "选台修复版：彻底修掉 4.9.70/4.9.72 的按键错误——之前面板里按方向键会被当成确定而直接换台，表现为选中台后跳回第一台、换不了台。本版恢复 4.9.55 的原始按键逻辑，方向键只负责移动，按确定才播放并关闭面板；面板停留延长到 60 秒。ExoPlayer 内核、三内置源、图标保护不变。",
-  "isForce": false
+  "versionCode": 554,
+  "versionName": "4.9.54",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.54-banner.apk",
+  "note": "回退到 4.9.54 稳定版，强制更新。",
+  "isForce": true
 }
