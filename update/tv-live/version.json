@@ -1,7 +1,7 @@
 {
-  "versionCode": 558,
-  "versionName": "4.9.58",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.58-exo.apk",
-  "note": "内核改造版：App 内置 ExoPlayer 播放内核（自带 HLS 与 FLV 解封装/解码），不再依赖盒子的 AmSuperPlayer。虎牙、斗鱼这类 FLV 直播源现在可以直接播放；m3u8 频道自动走 HLS 解析。三个内置源与图标保持原样。",
+  "versionCode": 560,
+  "versionName": "4.9.60",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/ipiptv/iptv-update@main/update/tv-live/TV-v4.9.60-exo.apk",
+  "note": "内核改造版：内置 ExoPlayer 播放内核，自带 HLS / FLV 直播解析，不再依赖盒子的 AmSuperPlayer。同时绕开了 App 自带的本地转发代理——虎牙、斗鱼黑屏就卡在这一层，直连后秒开；另外加了 12 秒首帧超时，卡住会自动交给下一线路/下一台。三个内置源、图标、不可删除保护均保持原样。",
   "isForce": false
 }
